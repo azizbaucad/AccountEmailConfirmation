@@ -43,7 +43,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fullName`, `email`, `password`, `code`, `status`) VALUES
-(1, 'shakil khan', 'ba@gmail.com', '12345678', 'sfsdfdsf', 0),
+(1, 'Aziz', 'ba@gmail.com', '12345678', 'test', 0),
 (6, 'Abdou Aziz Ba', 'baabdouaziz898@gmail.com', '$2y$10$s3L6WftMB5PEQA9R3MPdFuizXI6F7Y60sZj68tAF77tJlRDdTzdeC', '$2y$10$2XBjSyzyvx5Tqi7Za.SHSObhpXQgkslovS39a99ar59Z5V1jkOiYS', 1);
 
 --
