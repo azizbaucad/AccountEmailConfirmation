@@ -1,0 +1,18 @@
+body {
+    
+    background-size: cover;
+    background-color: rgba(67, 159, 230, 0.8);
+    background-blend-mode: overlay;
+}
+
+.card {
+    border-radius: 0!important;
+}
+
+.error {
+    color: red;
+}
+
+.jumb {
+    height: calc(100vh - 65px);
+}
