@@ -71,12 +71,13 @@
     </div>
 
     <div class="form-group">
-      <input type="email" name="email" class="form-control" placeholder="Enter Email"
+      <input type="email" name="email" class="form-control" placeholder="Email"
       value="<?php if($validation->input('email')): echo $validation->input('email');
       endif; ?>">
     </div>
     <div class="error">
-        <?php if(!empty($validation->errors['email'])): echo $validation->errors['email']; endif;?>
+        <?php if(!empty($validation->errors['email'])): echo
+         $validation->errors['email']; endif;?>
     </div>
 
     <div class="form-group">

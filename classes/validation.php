@@ -1,6 +1,6 @@
 
 <?php
-//error_reporting(0);
+error_reporting(0);
 class validation extends db {
 
     public $errors = [];

@@ -10,18 +10,18 @@
       <li class="nav-item active">
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
-      <!--?php if(isset($_SESSION['userId'])): ?-->
+      <?php if(isset($_SESSION['userId'])): ?>
       <li class="nav-item active">
         <a class="nav-link" href="logout.php">logout</a>
       </li>
-<!--?php else: ?-->
+<?php else: ?>
 <li class="nav-item active">
         <a class="nav-link" href="index.php">Register</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="login.php">Login</a>
       </li>
-<!--?php endif; ?-->
+<?php endif; ?>
 
     </ul>
   </div>
